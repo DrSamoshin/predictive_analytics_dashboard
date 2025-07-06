@@ -1,0 +1,32 @@
+# Cursor IDE Rules for Backend
+
+## Code Style
+- Use Python 3.13 features
+- Follow PEP 8 style guide
+- Use type hints for all functions
+- Use async/await for FastAPI endpoints
+- Keep line length to 88 characters (Black formatter)
+
+## Import Organization  
+- Standard library imports first
+- Third-party imports second
+- Local application imports last
+- Use absolute imports from app root
+
+## FastAPI Patterns
+- Use dependency injection for database sessions
+- Implement proper error handling with HTTPException
+- Use Pydantic models for request/response validation
+- Group related endpoints in separate modules
+
+## Security
+- Never commit secrets or API keys
+- Use environment variables for configuration
+- Validate all input data with Pydantic
+- Implement proper authentication and authorization
+
+## Documentation
+- Add docstrings to all functions and classes
+- Use meaningful variable and function names
+- Comment complex business logic
+- Keep API documentation up to date 
